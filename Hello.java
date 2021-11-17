@@ -11,10 +11,10 @@ import org.apache.logging.log4j.Logger;
 
 public class Hello{
 	
-	private static final Logger Log = LogManager.getLogger(Hello.class);
+	private static final Logger log = LogManager.getLogger(Hello.class);
 	
 	public static void main(String[] args){
-		logger.info("Sample info message");
-		logger.debug("Hello World");
+		log.info("Sample info message");
+		log.debug("Hello World");
 	}
 }
